@@ -1,0 +1,62 @@
+
+
+  <div class="keys">
+    <div id="code#65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div id="code#90" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div id="code#69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div id="code#82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div id="code#84" class="key">
+      <kbd>T</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div id="code#89" class="key">
+      <kbd>Y</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div id="code#85" class="key">
+      <kbd>U</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div id="code#73" class="key">
+      <kbd>I</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div id="code#79" class="key">
+      <kbd>O</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <%= audio_tag "1719.wav", id: 'code#A65'%>
+  <%= audio_tag "1355.wav", id: 'code#A90'%>
+  <%= audio_tag "1758.wav", id: 'code#A69'%>
+  <%= audio_tag "0129.wav", id: 'code#A82'%>
+  <%= audio_tag "0128.wav", id: 'code#A84'%>
+  <%= audio_tag "1501.wav", id: 'code#A89'%>
+  <%= audio_tag "1313.wav", id: 'code#A85'%>
+  <%= audio_tag "1795.wav", id: 'code#A73'%>
+  <%= audio_tag "0477.wav", id: 'code#A79'%>
+
+<!--<audio data-key="65" src="app/assets/sounds/1719.wav"></audio>
+  <audio data-key="83" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="68" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="70" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="71" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="72" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="74" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="75" src="app/assets/sounds/.wav"></audio>
+  <audio data-key="76" src="app/assets/sounds/.wav"></audio>-->
+
+      <%= javascript_include_tag 'drum', 'data-turbolinks-track': 'reload'%> 
